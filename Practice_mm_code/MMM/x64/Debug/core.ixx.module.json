@@ -1,0 +1,32 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "MMM\\x64\\Debug\\core.ixx.obj",
+            "outputs": [
+                "C:\\Users\\Student\\source\\repos\\MMM\\MMM\\x64\\Debug\\vc143.pdb",
+                "MMM\\x64\\Debug\\",
+                "C:\\Users\\Student\\source\\repos\\MMM\\MMM\\x64\\Debug\\core.ixx.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "mastermind",
+                    "source-path": "c:\\users\\student\\source\\repos\\mmm\\core.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": [
+                {
+                    "logical-name": "mastermind:generator"
+                },
+                {
+                    "logical-name": "mastermind:evaluator"
+                },
+                {
+                    "logical-name": "mastermind:types"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "MMM\\x64\\Debug\\evaluator.obj",
+            "outputs": [
+                "MMM\\x64\\Debug\\evaluator.ixx.ifc.dt.module.json",
+                "MMM\\x64\\Debug\\evaluator.ixx.ifc.dt.d.json",
+                "MMM\\x64\\Debug\\mastermind-evaluator.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "mastermind:evaluator",
+                    "source-path": "c:\\users\\student\\source\\repos\\mmm\\evaluator.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": [
+                {
+                    "logical-name": "mastermind:types"
+                }
+            ]
+        }
+    ]
+}

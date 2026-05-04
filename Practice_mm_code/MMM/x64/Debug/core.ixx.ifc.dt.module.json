@@ -1,0 +1,32 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "MMM\\x64\\Debug\\core.obj",
+            "outputs": [
+                "MMM\\x64\\Debug\\core.ixx.ifc.dt.module.json",
+                "MMM\\x64\\Debug\\core.ixx.ifc.dt.d.json",
+                "MMM\\x64\\Debug\\mastermind.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "mastermind",
+                    "source-path": "c:\\users\\student\\source\\repos\\mmm\\core.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": [
+                {
+                    "logical-name": "mastermind:generator"
+                },
+                {
+                    "logical-name": "mastermind:evaluator"
+                },
+                {
+                    "logical-name": "mastermind:types"
+                }
+            ]
+        }
+    ]
+}

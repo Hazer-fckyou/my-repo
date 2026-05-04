@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "MMM\\x64\\Debug\\types.obj",
+            "outputs": [
+                "MMM\\x64\\Debug\\types.ixx.ifc.dt.module.json",
+                "MMM\\x64\\Debug\\types.ixx.ifc.dt.d.json",
+                "MMM\\x64\\Debug\\mastermind-types.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "mastermind:types",
+                    "source-path": "c:\\users\\student\\source\\repos\\mmm\\types.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

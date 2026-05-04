@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "MMM\\x64\\Debug\\types.obj",
+            "outputs": [
+                "MMM\\x64\\Debug\\types.ixx.obj.dt.module.json",
+                "MMM\\x64\\Debug\\types.ixx.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}

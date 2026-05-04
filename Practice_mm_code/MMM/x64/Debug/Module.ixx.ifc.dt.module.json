@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "MMM\\x64\\Debug\\Module.obj",
+            "outputs": [
+                "MMM\\x64\\Debug\\Module.ixx.ifc.dt.module.json",
+                "MMM\\x64\\Debug\\Module.ixx.ifc.dt.d.json",
+                "MMM\\x64\\Debug\\Module.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "Module",
+                    "source-path": "c:\\users\\student\\source\\repos\\mmm\\module.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

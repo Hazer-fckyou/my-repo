@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "MMM\\x64\\Debug\\generator.ixx.obj",
+            "outputs": [
+                "C:\\Users\\Student\\source\\repos\\MMM\\MMM\\x64\\Debug\\vc143.pdb",
+                "MMM\\x64\\Debug\\",
+                "C:\\Users\\Student\\source\\repos\\MMM\\MMM\\x64\\Debug\\generator.ixx.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "mastermind:generator",
+                    "source-path": "c:\\users\\student\\source\\repos\\mmm\\generator.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "MMM\\x64\\Debug\\generator.obj",
+            "outputs": [
+                "MMM\\x64\\Debug\\generator.ixx.ifc.dt.module.json",
+                "MMM\\x64\\Debug\\generator.ixx.ifc.dt.d.json",
+                "MMM\\x64\\Debug\\mastermind-generator.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "mastermind:generator",
+                    "source-path": "c:\\users\\student\\source\\repos\\mmm\\generator.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": []
+        }
+    ]
+}

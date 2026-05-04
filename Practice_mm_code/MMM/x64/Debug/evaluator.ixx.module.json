@@ -1,0 +1,26 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "MMM\\x64\\Debug\\evaluator.ixx.obj",
+            "outputs": [
+                "C:\\Users\\Student\\source\\repos\\MMM\\MMM\\x64\\Debug\\vc143.pdb",
+                "MMM\\x64\\Debug\\",
+                "C:\\Users\\Student\\source\\repos\\MMM\\MMM\\x64\\Debug\\evaluator.ixx.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "mastermind:evaluator",
+                    "source-path": "c:\\users\\student\\source\\repos\\mmm\\evaluator.ixx",
+                    "is-interface": true
+                }
+            ],
+            "requires": [
+                {
+                    "logical-name": "mastermind:types"
+                }
+            ]
+        }
+    ]
+}
