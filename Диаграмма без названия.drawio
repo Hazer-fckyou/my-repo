@@ -1,0 +1,64 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="E76KP0h0vuyAuaJrD0fU">
+    <mxGraphModel dx="2293" dy="1137" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CfuvmpYHwmdvwbiNNcxH-1" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="530" width="1190" x="290" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CfuvmpYHwmdvwbiNNcxH-2" parent="CfuvmpYHwmdvwbiNNcxH-1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Игрок" vertex="1">
+          <mxGeometry height="60" width="30" x="50" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CfuvmpYHwmdvwbiNNcxH-14" parent="CfuvmpYHwmdvwbiNNcxH-1" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="490" width="570" x="613" y="7" as="geometry" />
+        </mxCell>
+        <mxCell id="CfuvmpYHwmdvwbiNNcxH-17" parent="CfuvmpYHwmdvwbiNNcxH-14" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Actor" vertex="1">
+          <mxGeometry height="60" width="30" x="27" y="43" as="geometry" />
+        </mxCell>
+        <mxCell id="CfuvmpYHwmdvwbiNNcxH-18" parent="CfuvmpYHwmdvwbiNNcxH-14" style="ellipse;whiteSpace=wrap;html=1;" value="Проверить корректность ввода" vertex="1">
+          <mxGeometry height="80" width="120" x="137" y="53" as="geometry" />
+        </mxCell>
+        <mxCell id="CfuvmpYHwmdvwbiNNcxH-19" parent="CfuvmpYHwmdvwbiNNcxH-14" style="ellipse;whiteSpace=wrap;html=1;" value="Сгенерировать секретный код" vertex="1">
+          <mxGeometry height="80" width="120" x="27" y="163" as="geometry" />
+        </mxCell>
+        <mxCell id="CfuvmpYHwmdvwbiNNcxH-20" parent="CfuvmpYHwmdvwbiNNcxH-14" style="ellipse;whiteSpace=wrap;html=1;" value="Оценить попытку (чёрные/белые фишки)" vertex="1">
+          <mxGeometry height="80" width="120" x="338" y="103" as="geometry" />
+        </mxCell>
+        <mxCell id="CfuvmpYHwmdvwbiNNcxH-21" parent="CfuvmpYHwmdvwbiNNcxH-14" style="ellipse;whiteSpace=wrap;html=1;" value="Проверить условие победы (сложность)" vertex="1">
+          <mxGeometry height="80" width="120" x="207" y="223" as="geometry" />
+        </mxCell>
+        <mxCell id="CfuvmpYHwmdvwbiNNcxH-22" parent="CfuvmpYHwmdvwbiNNcxH-14" style="ellipse;whiteSpace=wrap;html=1;" value="&amp;nbsp;Проверить условие поражения(сложность)" vertex="1">
+          <mxGeometry height="80" width="120" x="47" y="363" as="geometry" />
+        </mxCell>
+        <mxCell id="CfuvmpYHwmdvwbiNNcxH-23" parent="CfuvmpYHwmdvwbiNNcxH-14" style="ellipse;whiteSpace=wrap;html=1;" value="Сохранить статистику" vertex="1">
+          <mxGeometry height="80" width="120" x="317" y="353" as="geometry" />
+        </mxCell>
+        <mxCell id="CfuvmpYHwmdvwbiNNcxH-15" parent="CfuvmpYHwmdvwbiNNcxH-1" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="470" width="570" x="10" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CfuvmpYHwmdvwbiNNcxH-13" parent="CfuvmpYHwmdvwbiNNcxH-15" style="ellipse;whiteSpace=wrap;html=1;" value="Завершить игру" vertex="1">
+          <mxGeometry height="80" width="120" x="210" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="CfuvmpYHwmdvwbiNNcxH-9" parent="CfuvmpYHwmdvwbiNNcxH-15" style="ellipse;whiteSpace=wrap;html=1;" value="Ввести комбинацию цветов" vertex="1">
+          <mxGeometry height="80" width="120" x="20" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="CfuvmpYHwmdvwbiNNcxH-7" parent="CfuvmpYHwmdvwbiNNcxH-15" style="ellipse;whiteSpace=wrap;html=1;" value="Начать новую игру" vertex="1">
+          <mxGeometry height="80" width="120" x="130" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CfuvmpYHwmdvwbiNNcxH-8" parent="CfuvmpYHwmdvwbiNNcxH-15" style="ellipse;whiteSpace=wrap;html=1;" value="Выбрать уровень сложности" vertex="1">
+          <mxGeometry height="80" width="120" x="260" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CfuvmpYHwmdvwbiNNcxH-10" parent="CfuvmpYHwmdvwbiNNcxH-15" style="ellipse;whiteSpace=wrap;html=1;" value="Получить обратную связь " vertex="1">
+          <mxGeometry height="80" width="120" x="260" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="CfuvmpYHwmdvwbiNNcxH-12" parent="CfuvmpYHwmdvwbiNNcxH-15" style="ellipse;whiteSpace=wrap;html=1;" value="Начать заново" vertex="1">
+          <mxGeometry height="80" width="120" x="370" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="CfuvmpYHwmdvwbiNNcxH-11" parent="CfuvmpYHwmdvwbiNNcxH-15" style="ellipse;whiteSpace=wrap;html=1;" value="Просмотреть историю ходов" vertex="1">
+          <mxGeometry height="80" width="120" x="407" y="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
